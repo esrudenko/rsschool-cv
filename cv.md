@@ -73,7 +73,7 @@ I am currently transitioning into frontend development and applying these skills
 
 During my studies, I create responsive and interactive web projects using HTML, CSS, and JavaScript.
 
-My projects include working with:
+My projects:
 
 - [Restaurant menu](https://github.com/esrudenko/restaurant_menu.git)
 - [Twimba](https://github.com/esrudenko/twimba.git)
