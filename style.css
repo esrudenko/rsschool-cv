@@ -121,6 +121,8 @@ body {
 }
 
 /* CONTENT */
+
+/* header */
 .content {
   width: 70%;
   padding: 1em;
@@ -131,4 +133,67 @@ body {
 .nav_links {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 1em;
 }
+
+/* main */
+.main {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  gap: 2em;
+  margin: 0.05em;
+  padding: 2em 0;
+  border-top: 0.05em solid #c9ccc6;
+  border-bottom: 0.05em solid #c9ccc6;
+}
+
+.section_container {
+  display: flex;
+  color: #191b19;
+}
+
+.section_num {
+  color: #2d4439;
+  font-size: 1rem;
+  padding-right: 1em;
+}
+
+.section_content {
+  padding-left: 1.5em;
+  border-left: 0.1em solid #c9ccc6;
+}
+.section_header {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+.section_text {
+  line-height: 1.1rem;
+  margin-bottom: 1em;
+}
+
+.skills_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  line-height: 1.1rem;
+}
+
+.skill {
+  padding: 0.5em 0.9em;
+  background: #dce2da;
+  border-radius: 1em;
+}
+
+.code_example {
+  font-size: 0.7rem;
+  width: 100%;
+  background: #dce2da;
+  padding: 1em;
+  border-left: 0.25em solid #4f8068;
+  border-radius: 1em;
+  line-height: 1.1rem;
+}
+/* footer */
